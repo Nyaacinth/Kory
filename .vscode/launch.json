@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Application (macOS)",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn run:macos"
+        }
+    ]
+}
