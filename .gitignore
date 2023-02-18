@@ -13,9 +13,6 @@ node_modules
 # Generated files
 *.jsbundle
 
-# CocoaPods
-macos/Pods
-
 # System caches
 .DS_Store
 .DS_Store?
