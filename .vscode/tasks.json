@@ -9,6 +9,15 @@
             "runOptions": {
                 "runOn": "folderOpen"
             }
+        },
+        {
+            "label": "Build App Bundle for macOS (Release)",
+            "type": "npm",
+            "script": "build:macos",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
