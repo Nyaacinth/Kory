@@ -14,13 +14,13 @@ specifiers:
   metro-react-native-babel-preset: ^0.75.0
   react: 17.0.2
   react-native: 0.68.6
-  react-native-macos: 0.68.65
+  react-native-macos: 0.68.66
   typescript: ^4.9.5
 
 dependencies:
   react: 17.0.2
   react-native: 0.68.6_6tj6gicswomefco3f5jijgh4zy
-  react-native-macos: 0.68.65_5mz34yc77cug5q4dodrolq4epy
+  react-native-macos: 0.68.66_5mz34yc77cug5q4dodrolq4epy
 
 devDependencies:
   '@babel/core': 7.21.3
@@ -4997,8 +4997,8 @@ packages:
     resolution: {integrity: sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==}
     dev: false
 
-  /react-native-macos/0.68.65_5mz34yc77cug5q4dodrolq4epy:
-    resolution: {integrity: sha512-XQgkbShUerHsavZV6tWDwRw760R8yh0VPI8UlBoK2uYgKfEdtlJWKX2SIgzP3Gvr+G8NzLYBuxwnL8zXqIAWmA==}
+  /react-native-macos/0.68.66_5mz34yc77cug5q4dodrolq4epy:
+    resolution: {integrity: sha512-9SOiuXLaG3GDeQAw5jfZD6PkTboIpsj7Yvhh2GAyL1fmO0k8RTStTLN3/4oYS8BVOBCQLJ/v+hAyqQ3RJ648+A==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
