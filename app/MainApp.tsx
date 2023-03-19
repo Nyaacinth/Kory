@@ -1,10 +1,18 @@
-import { FunctionComponent } from "react"
-import { Text, View } from "react-native"
+import { FunctionComponent, StrictMode } from "react"
+import { createMemoryRouter, RouterProvider } from "react-router-native"
+import { Home } from "./screens/Home"
+
+const router = createMemoryRouter([
+    {
+        path: "/",
+        element: <Home />
+    }
+])
 
 export const MainApp: FunctionComponent = () => {
     return (
-        <View>
-            <Text>Hello</Text>
-        </View>
+        <StrictMode>
+            <RouterProvider router={router} />
+        </StrictMode>
     )
 }
