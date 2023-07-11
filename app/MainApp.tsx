@@ -1,6 +1,6 @@
 import { FunctionComponent, StrictMode } from "react"
-import { createMemoryRouter, RouterProvider } from "react-router-native"
-import { Home } from "./screens/Home"
+import { RouterProvider, createMemoryRouter } from "react-router-native"
+import { Home } from "./views/Home"
 
 const router = createMemoryRouter([
     {

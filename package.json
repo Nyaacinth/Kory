@@ -1,7 +1,7 @@
 {
     "name": "kory",
     "version": "1.0.0",
-    "packageManager": "pnpm@7.29.3",
+    "packageManager": "pnpm@8.6.6",
     "private": true,
     "scripts": {
         "start": "react-native start",
@@ -9,23 +9,23 @@
         "build:macos": "ENTRY_FILE=index.ts xcodebuild -workspace macos/kory.xcworkspace -scheme kory-macOS -config Release"
     },
     "dependencies": {
-        "react": "17.0.2",
-        "react-native": "0.68.6",
-        "react-native-macos": "0.68.66",
-        "react-router-native": "6.9.0"
+        "react": "18.2.0",
+        "react-native": "0.71.12",
+        "react-native-macos": "0.71.20",
+        "react-router-native": "6.14.1"
     },
     "devDependencies": {
-        "@babel/core": "^7.21.3",
-        "@babel/plugin-transform-react-jsx": "^7.21.0",
-        "@babel/preset-env": "^7.20.2",
-        "@types/react": "~17.0.53",
-        "@types/react-native": "~0.68.12",
-        "@typescript-eslint/eslint-plugin": "^5.55.0",
-        "@typescript-eslint/parser": "^5.55.0",
-        "eslint": "^8.36.0",
+        "@babel/core": "^7.22.8",
+        "@babel/plugin-transform-react-jsx": "^7.22.5",
+        "@babel/preset-env": "^7.22.7",
+        "@types/react": "~18.2.14",
+        "@types/react-native": "~0.71.8",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.44.0",
         "eslint-plugin-react": "^7.32.2",
         "eslint-plugin-react-hooks": "^4.6.0",
-        "metro-react-native-babel-preset": "^0.76.0",
-        "typescript": "^5.0.2"
+        "metro-react-native-babel-preset": "^0.77.0",
+        "typescript": "^5.1.6"
     }
 }
